@@ -8,7 +8,14 @@
 		/* Include ink.css */
   </style>
   <style>
-    
+
+    table.button td {
+	    background: #58799a;
+	    border: 1px solid #00386b;
+    }
+    table.button:hover td {
+	    background: #00386b !important;
+	}
     table.facebook td {
       background: #3b5998;
       border-color: #2d4473;
@@ -81,6 +88,7 @@
 	a {
 	  color: #58799a;
 	  text-decoration: none;
+	  font-weight: bold;
 	}
 	
 	a:hover { 
@@ -92,7 +100,7 @@
 	}
 	
 	a:visited { 
-	  color: #e0aa0f !important;
+	  color: #58799a!important;
 	}
 
     @media only screen and (max-width: 600px) {
@@ -127,12 +135,12 @@
                         <table class="twelve columns">
                           <tr>
                             <td class="six sub-columns">
-                              <img src="http://placehold.it/200x50">
+                              <img src="http://www.utc.edu/_resources/img/utc-lettertype-logo-small.png">
                             </td>
                             <td class="six sub-columns last" style="text-align:right; vertical-align:middle;">
                               <span class="template-label">UTC Department or College Newsletter</span>
                               <br />
-                              <span class="small-label">MM/DD/YYYY</span>
+                              <span class="small-label">MM/DD/YYYY&nbsp;&nbsp; <a href="#">View Online&nbsp;&rarr;</a></span>
                             </td>
                             <td class="expander"></td>
                           </tr>
@@ -158,9 +166,18 @@
                       <table class="twelve columns">
                         <tr>
                           <td>
-                            <h1>Hi, Susan Calvin</h1>
-                						<p class="lead">Phasellus dictum sapien a neque luctus cursus. Pellentesque sem dolor, fringilla et pharetra vitae.</p>
-                						<p>Phasellus dictum sapien a neque luctus cursus. Pellentesque sem dolor, fringilla et pharetra vitae. consequat vel lacus. Sed iaculis pulvinar ligula, ornare fringilla ante viverra et. In hac habitasse platea dictumst. Donec vel orci mi, eu congue justo. Integer eget odio est, eget malesuada lorem. Aenean sed tellus dui, vitae viverra risus. Nullam massa sapien, pulvinar eleifend fringilla id, convallis eget nisi. Mauris a sagittis dui. Pellentesque non lacinia mi. Fusce sit amet libero sit amet erat venenatis sollicitudin vitae vel eros. Cras nunc sapien, interdum sit amet porttitor ut, congue quis urna.</p>
+                            <h1>Title ipsum dolor sit amet</h1>
+        						<p><strong>Phasellus dictum sapien a neque luctus cursus. Pellentesque sem dolor, fringilla et pharetra vitae.</strong></p>
+								<p><a href="#"><img width="580" height="300" src="http://placehold.it/580x300"></a></p>
+        						<p>Phasellus dictum sapien a neque luctus cursus. Pellentesque sem dolor, fringilla et pharetra vitae. consequat vel lacus. Sed iaculis pulvinar ligula, ornare fringilla ante viverra et. </p><p>In hac habitasse platea dictumst. Donec vel orci mi, eu congue justo. Integer eget odio est, eget malesuada lorem. Aenean sed tellus dui, vitae viverra risus. Nullam massa sapien, pulvinar eleifend fringilla id, convallis eget nisi. </p>
+                          <table class="button">
+                            <tr>
+                              <td>
+                                <a href="#">Read More &rarr;</a>
+                              </td>
+                            </tr>
+                          </table>
+
                           </td>
                           <td class="expander"></td>
                         </tr>
@@ -192,8 +209,9 @@
         <tr>
           <td>
 
+            <h4>Title ipsum solor sit amet</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, mollitia, vero tempore consectetur similique perspiciatis nisi nulla neque modi facilis. Eveniet, cupiditate, recusandae quasi repellat alias dolorem qui possimus et.</p>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+			<p><a href="#">Read More &rarr;</a></p>
 
           </td>
           <td class="expander"></td>
@@ -225,9 +243,9 @@
       <table class="nine columns">
         <tr>
           <td>
-
+            <h4>Title ipsum solor sit amet</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, mollitia, vero tempore consectetur similique perspiciatis nisi nulla neque modi facilis. Eveniet, cupiditate, recusandae quasi repellat alias dolorem qui possimus et.</p>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+			<p><a href="#">Read More &rarr;</a></p>
 
           </td>
           <td class="expander"></td>
@@ -237,22 +255,6 @@
     </td>
   </tr>
 </table>              
-                <table class="row callout">
-                  <tr>
-                    <td class="wrapper last">
-
-                      <table class="twelve columns">
-                        <tr>
-                          <td class="panel">
-                            <p>Phasellus dictum sapien a neque luctus cursus. Pellentesque sem dolor, fringilla et pharetra vitae. <a href="#">Click it! »</a></p>
-                          </td>
-                          <td class="expander"></td>
-                        </tr>
-                      </table>
-
-                    </td>
-                  </tr>
-                </table>
               
                 <table class="row footer">
                   <tr>
@@ -278,16 +280,6 @@
                               <tr>
                                 <td>
                                   <a href="#">Twitter</a>
-                                </td>
-                              </tr>
-                            </table>
-
-                            <br>
-
-                            <table class="tiny-button google-plus">
-                              <tr>
-                                <td>
-                                  <a href="#">Google +</a>
                                 </td>
                               </tr>
                             </table>
